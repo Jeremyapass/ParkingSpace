@@ -6,10 +6,10 @@
 package View;
 
 import Controller.LoginController;
-import Event.LoginListener;
 import Model.LoginModel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+import Event.LoginListener;
 
 /**
  *
@@ -17,10 +17,6 @@ import javax.swing.JTextField;
  */
 public class LoginView extends javax.swing.JFrame implements LoginListener {
 //jenis dari method nya adalah interface, mengimplement abstrak method yang sudah dibuat
-    /**
-     * Creates new form SignIn
-     */
-    
     private LoginModel model;
     private LoginController controller;
     

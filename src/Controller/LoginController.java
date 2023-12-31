@@ -65,7 +65,7 @@ public class LoginController {
                         view.dispose();
                     } else {
                         // Email and/or password not found in the database
-                        JOptionPane.showMessageDialog(view, "GA ADA DI DB");
+                        JOptionPane.showMessageDialog(view, "Akun Belum Terdaftar");
                     }
                 }
             }
@@ -110,9 +110,3 @@ public class LoginController {
     }
 }
 //CREATE ACCOUNT
-
-
-//FORGOT PASSWORD
-    
-    
-//FORGOT PASSWORD

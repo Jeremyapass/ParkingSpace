@@ -1,11 +1,11 @@
 package Model;
 //tempat functionnya dibuat
-import Event.LoginListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
+import Event.LoginListener;
 /**
  *
  * @author MSI KATANA
@@ -14,8 +14,6 @@ public class LoginModel {
     private String CAEmail;    
     private String CAName;
     private String CAPassword;
-    private String FConfirmEmail;
-    private String FEmail;
     private String SIEmail;
     private String SIPassword;
     
@@ -70,25 +68,6 @@ public class LoginModel {
         fireOnChange();
     }
     //SI
-    
-   
-    //F
-    public String getFConfirmEmail() {
-        return FConfirmEmail;
-    }
-    public String getFEmail() {
-        return FEmail;
-    }
-    public void setFConfirmEmail(String FConfirmEmail) {
-        this.FConfirmEmail = FConfirmEmail;
-        fireOnChange();
-    }
-    public void setFEmail(String FEmail) {
-        this.FEmail = FEmail;
-        fireOnChange();
-    }
-    //F
-    
     
     //validasi perubahan data
     protected void fireOnChange(){
